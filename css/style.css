@@ -1,0 +1,40 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color:blanchedalmond;
+    margin: 0;
+}
+
+.stopwatch {
+    background-color: rgb(240, 197, 132);
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    color: black;
+}
+
+.time {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.buttons button {
+    background-color: rgb(158, 109, 36);
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.laps {
+    margin-top: 20px;
+}
+
+.lap {
+    margin-top: 10px;
+}
